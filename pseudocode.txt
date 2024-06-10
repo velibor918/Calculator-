@@ -6,6 +6,8 @@ Calculator needs to work with 3 + 5 = 15
 
 two variables, operand, and result 
 
+variables and result must be strings in order to appear in input correctly, convert to num in Calculator functions before returning result
+
 make functions that return basic math results for operands(maybe link return value to result var?)
 
 + (ab) {return a + b}
