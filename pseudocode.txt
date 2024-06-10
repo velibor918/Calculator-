@@ -1,0 +1,24 @@
+create html input field and buttons for numbers and operands 
+
+add css only for basic functionality, make pretty later 
+
+Calculator needs to work with 3 + 5 = 15
+
+two variables, operand, and result 
+
+make functions that return basic math results for operands(maybe link return value to result var?)
+
++ (ab) {return a + b}
+
+- (ab) {return a - b}
+
+* (ab) {return a * b}
+
+/ (ab) {return a / b}
+
+declare three blank variables 
+
+var1 
+var2
+result
+
