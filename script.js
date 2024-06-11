@@ -15,3 +15,16 @@ let btnPlus = document.querySelector('.plus');
 let btnMinus = document.querySelector('.minus');
 let btnDivide = document.querySelector('.divide');
 let btnClear = document.querySelector('.clear');
+
+let input = document.querySelector('.input');
+
+function numberButtons (button) {
+    varOne += button.target.textContent;
+    input.textContent += button.target.textContent;
+}
+
+let numbers = document.querySelectorAll('.number');
+
+numbers.forEach((number) => {
+    number.addEventListener('click', numberButtons)
+});
