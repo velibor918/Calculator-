@@ -13,13 +13,13 @@ make functions that return basic math results for operands(maybe link return val
     the functions will just turn these to true on not
     the number buttons will put the value in the second var if these are true, and in the first if false
 
-+ (ab) {return a + b}
++ (ab) {if varplus false make true if true make false}
 
-- (ab) {return a - b}
+- (ab) {same logic }
 
-* (ab) {return a * b}
+* (ab) same logic 
 
-/ (ab) {return a / b}
+/ (ab)  same logic 
 
 declare three blank variables 
 
