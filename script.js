@@ -1,6 +1,8 @@
 let varOne = '';
 let varTwo = '';
 let result = '';
+let operand = ''; 
+
 
 let btnOne = document.querySelector('.one');
 let btnTwo = document.querySelector('.two');
@@ -18,9 +20,16 @@ let btnClear = document.querySelector('.clear');
 
 let input = document.querySelector('.input');
 
+btnPlus.onclick = () => operand = '+';
+
 function numberButtons (event) {
-    varOne += event.target.textContent;
-    input.textContent += event.target.textContent;
+    if(operand != '') {
+        input.textContent = '';
+        varTwo += event.target.textContent;
+        input.textContent = varTwo;
+    } else {
+        varOne += event.target.textContent;
+        input.textContent = varOne;}
 }
 
 let numbers = document.querySelectorAll('.number');
