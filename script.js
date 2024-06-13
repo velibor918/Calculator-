@@ -28,21 +28,22 @@ btnDivide.addEventListener('click', () => operand = '/');
 let input = document.querySelector('.input');
 
 function calculate () {
-    if (operand = '+') {
+    if (operand == '+') {
         result = Number(varOne) + Number(varTwo);
         input.textContent = result;
-    } else if (operand = '-') {
+    } else if (operand == '-') {
         result = Number(varOne) - Number(varTwo);
         input.textContent = result;
-    } else if (operand = '*') {
+    } else if (operand == '*') {
         result = Number(varOne) * Number(varTwo);
         input.textContent = result;
-    } else if (operand = '/') {
+    } else if (operand == '/') {
         result = Number(varOne) / Number(varTwo);
         input.textContent = result;
     }
 }
 
+btnEquals.addEventListener('click', calculate);
 
 function numberButtons (event) {
     if(operand != '') {
