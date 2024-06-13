@@ -20,7 +20,25 @@ let btnClear = document.querySelector('.clear');
 
 let input = document.querySelector('.input');
 
-btnPlus.onclick = () => operand = '+';
+function calculate () {
+    if (operand = '+') {
+        result = Number(varOne) + Number(varTwo);
+        input.textContent = result;
+    } else if (operand = '-') {
+        result = Number(varOne) - Number(varTwo);
+        input.textContent = result;
+    } else if (operand = '*') {
+        result = Number(varOne) * Number(varTwo);
+        input.textContent = result;
+    } else if (operand = '/') {
+        result = Number(varOne) / Number(varTwo);
+        input.textContent = result;
+    }
+}
+
+btnClear.addEventListener('click', calculate);
+
+btnPlus.addEventListener('click', () => operand = '+');
 
 function numberButtons (event) {
     if(operand != '') {
