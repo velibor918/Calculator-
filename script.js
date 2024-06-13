@@ -15,8 +15,14 @@ let btnEight = document.querySelector('.eight');
 let btnNine = document.querySelector('.nine');
 let btnPlus = document.querySelector('.plus');
 let btnMinus = document.querySelector('.minus');
+let btnTimes = document.querySelector('.times');
 let btnDivide = document.querySelector('.divide');
 let btnClear = document.querySelector('.clear');
+
+btnPlus.addEventListener('click', () => operand = '+');
+btnMinus.addEventListener('click', () => operand = '-');
+btnTimes.addEventListener('click', () => operand = '*');
+btnDivide.addEventListener('click', () => operand = '/');
 
 let input = document.querySelector('.input');
 
@@ -36,9 +42,6 @@ function calculate () {
     }
 }
 
-btnClear.addEventListener('click', calculate);
-
-btnPlus.addEventListener('click', () => operand = '+');
 
 function numberButtons (event) {
     if(operand != '') {
