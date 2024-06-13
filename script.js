@@ -18,9 +18,9 @@ let btnClear = document.querySelector('.clear');
 
 let input = document.querySelector('.input');
 
-function numberButtons (button) {
-    varOne += button.target.textContent;
-    input.textContent += button.target.textContent;
+function numberButtons (event) {
+    varOne += event.target.textContent;
+    input.textContent += event.target.textContent;
 }
 
 let numbers = document.querySelectorAll('.number');
