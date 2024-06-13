@@ -2,7 +2,7 @@ create html input field and buttons for numbers and operands  CHECK
 
 add css only for basic functionality, make pretty later CHECK
 
-Calculator needs to work with 3 + 5 = 15
+Calculator needs to work with 10 + 5 = 15
 
 two variables, operand, and result CHECK 
 
@@ -36,4 +36,15 @@ lets write out some algorithms
     AFTER that an operand button is pressed
         WHEN operand button is pressed, number buttons now increment var2 and display textContent
         is now var2
-        
+
+
+CHANGE THE LOGIC 
+
+Declare operand variable and make it blank string
+    when operand button is pressed, push that value into operand variable
+    if operand is not blank string, calculate with previous operand and push that 
+    to first var before changing the operand var
+write calculate functions that work as 
+    take var1 to number [operand value (+ - / *)] var2 to number
+    result = that 
+    display = result 
