@@ -31,3 +31,9 @@ var1
 var2
 result
 
+lets write out some algorithms 
+    number buttons increment var1 and change display textContent to var1
+    AFTER that an operand button is pressed
+        WHEN operand button is pressed, number buttons now increment var2 and display textContent
+        is now var2
+        
