@@ -18,6 +18,7 @@ let btnMinus = document.querySelector('.minus');
 let btnTimes = document.querySelector('.times');
 let btnDivide = document.querySelector('.divide');
 let btnClear = document.querySelector('.clear');
+let btnEquals = document.querySelector('.equals');
 
 btnPlus.addEventListener('click', () => operand = '+');
 btnMinus.addEventListener('click', () => operand = '-');
