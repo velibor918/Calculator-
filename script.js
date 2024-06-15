@@ -20,7 +20,16 @@ let btnDivide = document.querySelector('.divide');
 let btnClear = document.querySelector('.clear');
 let btnEquals = document.querySelector('.equals');
 
-btnPlus.addEventListener('click', () => operand = '+');
+function operandPlus () {
+    if (varOne !== '' && varTwo !== '' && operand !== '') {
+        varOne = Number(varOne) + Number(varTwo);
+        input.textContent = varOne.toString();
+        varTwo = '';
+    }
+    operand = '+';
+}
+
+btnPlus.addEventListener('click', operandPlus);
 btnMinus.addEventListener('click', () => operand = '-');
 btnTimes.addEventListener('click', () => operand = '*');
 btnDivide.addEventListener('click', () => operand = '/');
