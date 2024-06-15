@@ -41,6 +41,9 @@ function calculate () {
         result = Number(varOne) / Number(varTwo);
         input.textContent = result;
     }
+    varOne = '';
+    varTwo = '';
+    operand = '';
 }
 
 btnEquals.addEventListener('click', calculate);
