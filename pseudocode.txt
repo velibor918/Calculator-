@@ -48,3 +48,15 @@ write calculate functions that work as
     take var1 to number [operand value (+ - / *)] var2 to number
     result = that 
     display = result 
+
+
+
+let varOne = 0;
+
+code changes varOne to 2;
+
+varTwo = varOne AT THIS POINT 
+
+varOne is later changed to 5;
+
+code that uses varTwo (SHOULD HAVE THE VALUE 2 AND NOT 5);
