@@ -28,6 +28,11 @@ btnDivide.addEventListener('click', () => operand = '/');
 let input = document.querySelector('.input');
 
 function calculate () {
+    if (result !== '') {
+        varOne = result.toString();
+        result = '';
+        input.textContent = varOne;
+    }
     if (operand == '+') {
         result = Number(varOne) + Number(varTwo);
         input.textContent = result;
