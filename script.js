@@ -2,7 +2,7 @@ let varOne = '';
 let varTwo = '';
 let result = '';
 let operand = ''; 
-let tempOperand = '';
+
 
 
 let btnOne = document.querySelector('.one');
@@ -21,22 +21,27 @@ let btnDivide = document.querySelector('.divide');
 let btnClear = document.querySelector('.clear');
 let btnEquals = document.querySelector('.equals');
 
-function checkStoredOperand () {
-    tempOperand = operand;
-    return tempOperand;
+function checkValue (value) {
+    tempValue = value;
+    return tempValue;
 }
 
 
 
 function operandPlus () {
-  
+  if (operand !== ''){
+    let tempOperand = checkValue(operand);
+    calculate(tempOperand);
+  }
     operand = '+';
 };
 
 btnPlus.addEventListener('click', operandPlus);
 
 function operandMinus () {
-
+    if (operand !== '') {
+        checkValue(operand);
+    }
     operand = '-';
 }
 
