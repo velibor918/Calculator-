@@ -26,8 +26,6 @@ function checkValue (value) {
     return tempValue;
 }
 
-
-
 function operandPlus () {
   if (operand !== ''){
     let tempOperand = checkValue(operand);
@@ -39,9 +37,10 @@ function operandPlus () {
 btnPlus.addEventListener('click', operandPlus);
 
 function operandMinus () {
-    if (operand !== '') {
-        checkValue(operand);
-    }
+    if (operand !== ''){
+        let tempOperand = checkValue(operand);
+        calculate(tempOperand);
+      }
     operand = '-';
 }
 
