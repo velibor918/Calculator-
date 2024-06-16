@@ -124,3 +124,13 @@ let numbers = document.querySelectorAll('.number');
 numbers.forEach((number) => {
     number.addEventListener('click', numberButtons)
 });
+
+function clear() {
+    varOne = '';
+    varTwo = '';
+    operand = '';
+    result = '';
+    input.textContent = varOne;
+};
+
+btnClear.addEventListener('click', clear);
