@@ -14,6 +14,7 @@ let btnSix = document.querySelector('.six');
 let btnSeven = document.querySelector('.seven');
 let btnEight = document.querySelector('.eight');
 let btnNine = document.querySelector('.nine');
+let btnZero = document.querySelector('.zero');
 let btnPlus = document.querySelector('.plus');
 let btnMinus = document.querySelector('.minus');
 let btnTimes = document.querySelector('.times');
