@@ -42,10 +42,19 @@ function operandMinus () {
         calculate(tempOperand);
       }
     operand = '-';
-}
+};
 
 btnMinus.addEventListener('click', operandMinus);
-btnTimes.addEventListener('click', () => operand = '*');
+
+function operandTimes () {
+    if (operand !== ''){
+        let tempOperand = checkValue(operand);
+        calculate(tempOperand);
+      };
+    operand = '*';
+}
+
+btnTimes.addEventListener('click', operandTimes);
 btnDivide.addEventListener('click', () => operand = '/');
 
 let input = document.querySelector('.input');
