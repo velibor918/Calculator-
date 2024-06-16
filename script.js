@@ -74,6 +74,13 @@ function calculate () {
         result = '';
         input.textContent = varOne;
     }
+    if (varTwo == '' || operand == ''){
+        varOne = '';
+        varTwo = '';
+        operand = '';
+        input.textContent = varOne;
+        return alert('Resetting...');
+    }
     if (operand == '+') {
         result = Number(varOne) + Number(varTwo);
         input.textContent = result;
@@ -84,6 +91,13 @@ function calculate () {
         result = Number(varOne) * Number(varTwo);
         input.textContent = result;
     } else if (operand == '/') {
+        if (varTwo == '0') {
+            varOne = '';
+            varTwo = '';
+            operand = '';
+            input.textContent = varOne;
+            return alert('We can`t do that, no sir!');
+        }
         result = Number(varOne) / Number(varTwo);
         input.textContent = result;
     }
