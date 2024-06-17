@@ -21,6 +21,7 @@ let btnMinus = document.querySelector('.minus');
 let btnTimes = document.querySelector('.times');
 let btnDivide = document.querySelector('.divide');
 let btnClear = document.querySelector('.clear');
+let btnBackspace = document.querySelector('.backspace');
 let btnEquals = document.querySelector('.equals');
 
 function checkValue (value) {
