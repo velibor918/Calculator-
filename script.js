@@ -155,3 +155,16 @@ function periodNum () {
 };
 
 btnPeriod.addEventListener('click', periodNum);
+
+function backspace () {
+    if(operand != '') {
+        input.textContent = '';
+        varTwo = varTwo.slice(0, -1);
+        input.textContent = varTwo;
+        tempOperand = operand;
+    } else {
+        varOne = varOne.slice(0, -1);
+        input.textContent = varOne;}
+};
+
+btnBackspace.addEventListener('click', backspace);
