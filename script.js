@@ -136,3 +136,21 @@ function clear() {
 };
 
 btnClear.addEventListener('click', clear);
+
+function periodNum () {
+    let tempInput = input.textContent;
+    if(tempInput.includes('.')) {
+        return false;
+    }
+    
+    if(operand != '') {
+        input.textContent = '';
+        varTwo += '.';
+        input.textContent = varTwo;
+        tempOperand = operand;
+    } else {
+        varOne += '.';
+        input.textContent = varOne;}
+};
+
+btnPeriod.addEventListener('click', periodNum);
