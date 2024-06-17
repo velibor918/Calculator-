@@ -1,14 +1,26 @@
 /* ignore blank document for git  */
 
+.Calculator {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
 
 .container {
     width: max-content;
-    border: 1px solid red;
     margin: 0 auto;
+}
+
+.display {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .input {
     border: 1px solid black;
-    width: 500px;
-    height: 500px;
+    width: 90%;
+    height: 50px;
 }  
