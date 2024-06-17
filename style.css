@@ -1,5 +1,12 @@
 /* ignore blank document for git  */
 
+
+.container {
+    width: max-content;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
 .input {
     border: 1px solid black;
     width: 500px;
