@@ -32,7 +32,9 @@
 }  
 
 .reflection {
-    height: 95%;
+    height: 100%;
     width: 25px;
-    border: 1px solid black;
+    background-color: #b4b3b2;
+    margin-left: 350px;
+    transform: skew(22deg, 0deg);
 }
