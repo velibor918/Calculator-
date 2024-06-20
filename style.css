@@ -32,8 +32,11 @@
 }  
 
 .reflection {
-    height: 100%;
+    position: relative;
+    top: -90px;
+    opacity: 60%;
     width: 25px;
+    height: 47.5px;
     background-color: #b4b3b2;
     margin-left: 150px;
     transform: skew(22deg, 0deg);
