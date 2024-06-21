@@ -74,7 +74,7 @@ button:hover {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 110px;
     background-color: #383837;
 }
 
@@ -83,7 +83,7 @@ button:hover {
     border: 1px solid black;
     border-radius: 10px;
     width: 95%;
-    height: 50px;
+    height: 80px;
     background-color: #9e9c99;
     font-size: 40px;
     padding-left: 5px;
@@ -91,10 +91,10 @@ button:hover {
 
 .reflection {
     position: relative;
-    top: -579px;
+    top: -584px;
     opacity: 60%;
     width: 25px;
-    height: 47.5px;
+    height: 77.5px;
     background-color: #b4b3b2;
     margin-left: 150px;
     transform: skew(22deg, 0deg);
