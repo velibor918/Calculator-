@@ -20,6 +20,9 @@
     background-color:  #303030;
 }
 
+button:hover {
+    transform: scale(1.1);
+}
 
 .rowOne {
     display: flex;
@@ -60,6 +63,10 @@
     flex-basis: 65px;
     height: 65px;
     font-size: 30px;
+}
+
+.rowFive {
+    margin-bottom: 20px;
 }
 
 .display {
