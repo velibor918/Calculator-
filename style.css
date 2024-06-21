@@ -19,10 +19,6 @@
     justify-content: center;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-}
 
 .rowOne {
     display: flex;
@@ -32,9 +28,10 @@
 }
 
 .rowOne button {
+    font-size: 30px;
     flex-basis: 50%;
-    gap: 10px;
     margin: 10px;
+    height: 50px;
 }
 
 .display {
