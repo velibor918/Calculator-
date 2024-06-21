@@ -32,14 +32,14 @@ button:hover {
     display: flex;
     flex-grow: 1;
     gap: 15px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .rowOne button {
     font-size: 30px;
     flex-basis: 50%;
-    margin: 10px;
-    height: 50px;
+    margin: 5px;
+    height: 55px;
 }
 
 .rowTwo {
@@ -87,7 +87,7 @@ button:hover {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    height: 110px;
+    height: 115px;
     background-color: #383837;
 }
 
