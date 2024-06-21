@@ -23,7 +23,6 @@
 
 .rowOne {
     display: flex;
-    flex-direction: row;
     flex-grow: 1;
     gap: 15px;
 }
@@ -33,6 +32,30 @@
     flex-basis: 50%;
     margin: 10px;
     height: 50px;
+}
+
+.rowTwo {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    /* gap: 10px; */
+}
+
+.rowThree, 
+.rowFour,
+.rowFive {
+    display: flex;
+    justify-content: center;
+}
+
+
+.rowTwo button,
+.rowThree button,
+.rowFour button,
+.rowFive button {
+    flex-basis: 65px;
+    height: 65px;
+    font-size: 30px;
 }
 
 .display {
