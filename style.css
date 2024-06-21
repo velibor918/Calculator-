@@ -73,6 +73,15 @@ button:hover {
     margin-bottom: 20px;
 }
 
+.number {
+    background-color: grey;
+    color: white;
+}
+
+.number:active {
+    background-color: rgb(92, 91, 91)
+}
+
 .display {
     display: flex;
     box-sizing: border-box;
@@ -86,7 +95,7 @@ button:hover {
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 10px;
-    width: 95%;
+    width: 93%;
     height: 80px;
     background-color: #9e9c99;
     font-size: 70px;
