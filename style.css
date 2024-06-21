@@ -16,11 +16,25 @@
 .buttons {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .row {
     display: flex;
     justify-content: center;
+}
+
+.rowOne {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.rowOne button {
+    flex-basis: 50%;
+    gap: 10px;
+    margin: 10px;
 }
 
 .display {
