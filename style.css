@@ -1,13 +1,15 @@
 /* ignore blank document for git  */
 
+
 .Calculator {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
+    height: 600px;
 }
 
 .container {
-    width: 500px;
+    width: 350px;
     margin: 0 auto;
 }
 
@@ -33,7 +35,7 @@
 
 .reflection {
     position: relative;
-    top: -90px;
+    top: -579px;
     opacity: 60%;
     width: 25px;
     height: 47.5px;
