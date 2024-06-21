@@ -20,6 +20,10 @@
     background-color:  #303030;
 }
 
+button {
+    border-radius: 5px;
+}
+
 button:hover {
     transform: scale(1.1);
 }
@@ -60,8 +64,8 @@ button:hover {
 .rowThree button,
 .rowFour button,
 .rowFive button {
-    flex-basis: 65px;
-    height: 65px;
+    flex-basis: 70px;
+    height: 70px;
     font-size: 30px;
 }
 
