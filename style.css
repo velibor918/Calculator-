@@ -13,6 +13,16 @@
     margin: 0 auto;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
 .display {
     display: flex;
     box-sizing: border-box;
