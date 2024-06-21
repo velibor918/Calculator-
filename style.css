@@ -42,6 +42,10 @@ button:hover {
     height: 55px;
 }
 
+.rowOne button:hover {
+    transform: scale(1.05);
+}
+
 .rowTwo {
     display: flex;
     justify-content: center;
@@ -105,7 +109,7 @@ button:hover {
 
 .reflection {
     position: relative;
-    top: -581px;
+    top: -579px;
     opacity: 60%;
     width: 25px;
     height: 77.5px;
