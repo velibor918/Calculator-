@@ -25,6 +25,7 @@
     display: flex;
     flex-grow: 1;
     gap: 15px;
+    margin: 10px;
 }
 
 .rowOne button {
@@ -38,6 +39,7 @@
     display: flex;
     justify-content: center;
     flex-grow: 1;
+    margin: 10px;
     /* gap: 10px; */
 }
 
@@ -46,6 +48,7 @@
 .rowFive {
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
 
