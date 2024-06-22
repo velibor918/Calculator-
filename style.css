@@ -82,8 +82,8 @@ button:hover {
     color: white;
 }
 
-.number:active {
-    background-color: rgb(92, 91, 91)
+button:active {
+    filter: brightness(90%);
 }
 
 .display {
