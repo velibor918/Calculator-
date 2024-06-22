@@ -126,3 +126,7 @@ button:active {
 .clear {
     background-color: rgb(199, 23, 23);
 }
+
+.equals {
+    background-color: rgb(172, 145, 24);
+}
