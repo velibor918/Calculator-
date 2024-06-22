@@ -121,3 +121,8 @@ button:active {
 .operand {
     background-color: #df6909;
 }
+
+.backspace,
+.clear {
+    background-color: rgb(199, 23, 23);
+}
