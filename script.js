@@ -3,7 +3,7 @@ let varTwo = '';
 let result = '';
 let operand = ''; 
 
-
+document.querySelector('.indicator').textContent = operand;
 
 let btnOne = document.querySelector('.one');
 let btnTwo = document.querySelector('.two');
@@ -35,6 +35,7 @@ function operandPlus () {
     calculate(tempOperand);
   }
     operand = '+';
+    document.querySelector('.indicator').textContent = operand;
 };
 
 btnPlus.addEventListener('click', operandPlus);
@@ -45,6 +46,7 @@ function operandMinus () {
         calculate(tempOperand);
       }
     operand = '-';
+    document.querySelector('.indicator').textContent = operand;
 };
 
 btnMinus.addEventListener('click', operandMinus);
@@ -55,6 +57,7 @@ function operandTimes () {
         calculate(tempOperand);
       };
     operand = '*';
+    document.querySelector('.indicator').textContent = operand;
 };
 
 btnTimes.addEventListener('click', operandTimes);
@@ -65,6 +68,7 @@ function operandDivide () {
         calculate(tempOperand);
       };
     operand = '/';
+    document.querySelector('.indicator').textContent = operand;
 };
 
 btnDivide.addEventListener('click', operandDivide);
@@ -123,6 +127,7 @@ function calculate () {
     varOne = '';
     varTwo = '';
     operand = '';
+    document.querySelector('.indicator').textContent = '';
 }
 
 btnEquals.addEventListener('click', calculate);
@@ -150,6 +155,7 @@ function clear() {
     operand = '';
     result = '';
     input.textContent = varOne;
+    document.querySelector('.indicator').textContent = '';
 };
 
 btnClear.addEventListener('click', clear);
