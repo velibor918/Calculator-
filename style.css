@@ -92,7 +92,7 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 170px;
+    height: 200px;
     background-color: #383837;
 }
 
@@ -133,7 +133,13 @@ button:active {
 }
 
 .indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25px;
     height: 25px;
-    border: 1px solid white;
+    font-size: 40px;
+    border: 1px solid black;
+    background-color: #9e9c99;
+
 }
