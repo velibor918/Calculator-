@@ -83,7 +83,7 @@ button:hover {
 }
 
 button:active {
-    filter: brightness(90%);
+    filter: brightness(85%);
 }
 
 .display {
@@ -116,4 +116,8 @@ button:active {
     background-color: #b4b3b2;
     margin-left: 150px;
     transform: skew(22deg, 0deg);
+}
+
+.operand {
+    background-color: #df6909;
 }
