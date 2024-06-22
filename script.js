@@ -134,11 +134,17 @@ btnEquals.addEventListener('click', calculate);
 
 function numberButtons (event) {
     if(operand != '') {
+        if (varTwo.length > 6) {
+            return false
+        }
         input.textContent = '';
         varTwo += event.target.textContent;
         input.textContent = varTwo;
         tempOperand = operand;
     } else {
+        if (varOne.length > 6) {
+            return false
+        }
         varOne += event.target.textContent;
         input.textContent = varOne;}
 }
