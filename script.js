@@ -73,6 +73,10 @@ let input = document.querySelector('.input');
 
 function calculate () {
     if (result !== '') {
+        if (Number.isInteger(result) == false){
+            result = Number(result);
+            result = result.toFixed(2);
+        }
         varOne = result.toString();
         result = '';
         input.textContent = varOne;
@@ -86,12 +90,21 @@ function calculate () {
     }
     if (operand == '+') {
         result = Number(varOne) + Number(varTwo);
+        if (Number.isInteger(result) == false){
+            result = result.toFixed(2);
+        };
         input.textContent = result;
     } else if (operand == '-') {
         result = Number(varOne) - Number(varTwo);
+        if (Number.isInteger(result) == false){
+            result = result.toFixed(2);
+        }
         input.textContent = result;
     } else if (operand == '*') {
         result = Number(varOne) * Number(varTwo);
+        if (Number.isInteger(result) == false){
+            result = result.toFixed(2);
+        }
         input.textContent = result;
     } else if (operand == '/') {
         if (varTwo == '0') {
@@ -102,6 +115,9 @@ function calculate () {
             return alert('We can`t do that, no sir!');
         }
         result = Number(varOne) / Number(varTwo);
+        if (Number.isInteger(result) == false){
+            result = result.toFixed(2);
+        }
         input.textContent = result;
     }
     varOne = '';
