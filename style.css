@@ -1,6 +1,10 @@
 /* ignore blank document for git  */
 
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .Calculator {
     display: flex;
     box-sizing: border-box;
