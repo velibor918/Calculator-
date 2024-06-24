@@ -90,6 +90,7 @@ function calculate () {
         varTwo = '';
         operand = '';
         input.textContent = varOne;
+        document.querySelector('.indicator').textContent = '';
         return alert('Resetting...');
     }
     if (operand == '+') {
@@ -116,6 +117,7 @@ function calculate () {
             varTwo = '';
             operand = '';
             input.textContent = varOne;
+            document.querySelector('.indicator').textContent = '';
             return alert('We can`t do that, no sir!');
         }
         result = Number(varOne) / Number(varTwo);
