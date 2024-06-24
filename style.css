@@ -5,6 +5,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+@font-face {
+    font-family: "Calculator";
+    src: url(digital-7/digital-7.ttf);
+}
+
 .Calculator {
     display: flex;
     box-sizing: border-box;
@@ -101,6 +106,8 @@ button:active {
 }
 
 .input {
+    font-family: "Calculator";
+    line-height: 100px;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 10px;
