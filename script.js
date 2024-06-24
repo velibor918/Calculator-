@@ -246,5 +246,17 @@ document.addEventListener('keydown', (e) => {
         case "9":
             keyboardNumber(9);
             break;
+        case "+":
+            operandPlus();
+            break;
+        case "-":
+            operandMinus();
+            break;
+        case "*":
+            operandTimes();
+            break;
+        case "/":
+            operandDivide();
+            break;
     }
 })
