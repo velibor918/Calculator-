@@ -258,5 +258,17 @@ document.addEventListener('keydown', (e) => {
         case "/":
             operandDivide();
             break;
+        case ".":
+            periodNum();
+            break;
+        case "c":
+            clear();
+            break;
+        case "Backspace":
+            backspace();
+            break;
+        case "Enter":
+            calculate();
+            break;
     }
 })
