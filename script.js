@@ -212,4 +212,39 @@ function keyboardNumber (num) {
         }
         varOne += num;
         input.textContent = varOne;}
-}
+};
+
+document.addEventListener('keydown', (e) => {
+    switch (e.key) {
+        case "0":
+            keyboardNumber(0);
+            break;
+        case "1":
+            keyboardNumber(1);
+            break;
+        case "2":
+            keyboardNumber(2);
+            break; 
+        case "3":
+            keyboardNumber(3);
+            break;
+        case "4":
+            keyboardNumber(4);
+            break;
+        case "5":
+            keyboardNumber(5);
+            break;
+        case "6":
+            keyboardNumber(6);
+            break;
+        case "7":
+            keyboardNumber(7);
+            break;
+        case "8":
+            keyboardNumber(8);
+            break;
+        case "9":
+            keyboardNumber(9);
+            break;
+    }
+})
