@@ -196,3 +196,20 @@ function backspace () {
 };
 
 btnBackspace.addEventListener('click', backspace);
+
+function keyboardNumber (num) {
+    if(operand != '') {
+        if (varTwo.length > 6) {
+            return false
+        }
+        input.textContent = '';
+        varTwo += num;
+        input.textContent = varTwo;
+        tempOperand = operand;
+    } else {
+        if (varOne.length > 6) {
+            return false
+        }
+        varOne += num;
+        input.textContent = varOne;}
+}
